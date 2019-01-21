@@ -89,6 +89,23 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\src\common\common.vcxproj">
+      <Project>{288321e3-e418-4710-b8a2-d33604d933bd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\dataset\src\dataset\adp_data.vcxproj">
+      <Project>{a9fe81ee-e09d-4472-8f79-5eb23c148e93}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\context_glfw\context_glfw.vcxproj">
+      <Project>{6d35dc58-713c-4410-8398-a24c463cf188}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\font\font.vcxproj">
+      <Project>{09d84f64-f496-4be1-b5c6-2b2f2497c093}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\glw\glw.vcxproj">
+      <Project>{722e3283-9fcf-46ac-8971-0dccfbfe52ac}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
