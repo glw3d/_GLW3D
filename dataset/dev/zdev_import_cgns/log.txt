@@ -1,0 +1,3 @@
+Time: 29/8/115 11:38:0
+--------------------------------
+!!! Cannot open filename ../test/cgns/rae2822_coarse_upd.cgns   line: 287   file: c:\projects\_gluubs\dataset\dev\zdev_import_cgns\main.cpp

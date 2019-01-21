@@ -1,0 +1,9 @@
+Time: 30/8/115 11:21:59
+--------------------------------
+num points: 7916
+points_of_surfacetriangles: 45816
+points_of_surfacequadrilaterals: 1120
+points_of_tetraeders: 0
+points_of_pyramids: 0
+points_of_prisms: 45816
+points_of_hexaeders: 0

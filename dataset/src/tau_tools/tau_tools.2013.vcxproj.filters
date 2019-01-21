@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tau_normals.cpp" />
+    <ClCompile Include="tau_export.cpp" />
+    <ClCompile Include="tau_gradients.cpp" />
+    <ClCompile Include="tau_import.cpp" />
+    <ClCompile Include="owTauGrid.cpp" />
+    <ClCompile Include="tau_deform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tau_tools.h" />
+    <ClInclude Include="owTauGrid.h" />
+  </ItemGroup>
+</Project>

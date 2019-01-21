@@ -1,0 +1,17 @@
+SYSTEM := MINGW
+
+GLEW_INC = -I$(CURDIR)\..\ext_libs\glew-1.12.0\include
+
+GLFW_INC = -I$(CURDIR)\..\ext_libs\glfw-3.1.1\include
+GLFW_LIB = -L$(CURDIR)\..\ext_libs\glfw-3.1.1\win32\lib-mingw
+
+#Required only for Windows
+GL_LIB = -LC:\mingw32\lib 
+
+#Required to generate the Python libraries
+PYTHON_INC = -IC:\Python33\include
+PYTHON_LIB = -LC:\Python33\libs
+LIB_PYTHON = -lpython33
+
+SWIG = swig.exe
+

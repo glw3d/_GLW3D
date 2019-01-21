@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <PYTHON_INC>C:\Python32\include</PYTHON_INC>
+    <PYTHON_LIBPATH>C:\Python32\\libs</PYTHON_LIBPATH>
+    <PYTHON_LIB>python32.lib</PYTHON_LIB>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="PYTHON_INC">
+      <Value>$(PYTHON_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_LIBPATH">
+      <Value>$(PYTHON_LIBPATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_LIB">
+      <Value>$(PYTHON_LIB)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

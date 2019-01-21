@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="csv\csv_import.cpp">
+      <Filter>csv</Filter>
+    </ClCompile>
+    <ClCompile Include="img\image_edit.c">
+      <Filter>img</Filter>
+    </ClCompile>
+    <ClCompile Include="img\import_bmp.c">
+      <Filter>img</Filter>
+    </ClCompile>
+    <ClCompile Include="img\import_tga.c">
+      <Filter>img</Filter>
+    </ClCompile>
+    <ClCompile Include="dataset_arrays.cpp" />
+    <ClCompile Include="obj\import_obj.c">
+      <Filter>obj</Filter>
+    </ClCompile>
+    <ClCompile Include="stl\import_stl.c">
+      <Filter>stl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="csv\csv_import.h">
+      <Filter>csv</Filter>
+    </ClInclude>
+    <ClInclude Include="img\image_edit.h">
+      <Filter>img</Filter>
+    </ClInclude>
+    <ClInclude Include="img\import_bmp.h">
+      <Filter>img</Filter>
+    </ClInclude>
+    <ClInclude Include="img\import_tga.h">
+      <Filter>img</Filter>
+    </ClInclude>
+    <ClInclude Include="dataset_arrays.h" />
+    <ClInclude Include="obj\import_obj.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+    <ClInclude Include="stl\import_stl.h">
+      <Filter>stl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="csv">
+      <UniqueIdentifier>{8f09bc0e-4218-41e4-b97d-1a7388ae0c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="img">
+      <UniqueIdentifier>{e137a052-b124-4e65-bf36-359f3f3a5f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{e92cacce-f445-4427-92a3-803c3ff72fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stl">
+      <UniqueIdentifier>{23652085-ac75-4ec8-bde4-c8620db20260}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

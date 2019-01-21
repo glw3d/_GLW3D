@@ -1,0 +1,17 @@
+SYSTEM := MINGW
+
+NETCDF_INC = -I$(CURDIR)\..\..\ext_libs\include
+NETCDF_LIB = -L$(CURDIR)\..\..\ext_libs\lib\win32
+LIB_NETCDF = -lnetcdf
+
+CGNS_INC = -I$(CURDIR)\..\..\ext_libs\include
+CGNS_LIB = -L$(CURDIR)\..\..\ext_libs\lib\win32
+LIB_CGNS = -lcgns
+
+#Required to generate the Python libraries
+PYTHON_INC = -IC:\Python32\include
+PYTHON_LIB = -LC:\Python32\libs
+LIB_PYTHON = -lpython32
+
+SWIG = swig.exe
+

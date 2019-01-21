@@ -1,0 +1,5 @@
+With Visual Studio the only resonable way to share user defined macros is 
+through property sheets. 
+In the VS IDE open the Property Manager. Expand the xxx_py project -> Release
+And add python_configuration.props. 
+The macros can be redefined in Right click -> Properties -> User Macros

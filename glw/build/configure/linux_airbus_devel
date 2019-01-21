@@ -1,0 +1,14 @@
+SYSTEM := LINUX
+#SYSTEM := MINGW
+
+GLFW_INC = -I/home/martinbj/external_libs/glfw-3.1.1/include
+GLFW_LIB = -L/home/martinbj/external_libs/glfw-3.1.1
+
+#GL should come with the graphic drivers
+GL_LIB =  -L/usr/lib64
+X11_LIB = -L/usr/X11R6/lib64
+Xrandr_LIB = -L/usr/lib64
+pthread_LIB = -L/usr/lib64
+rt_LIB = -L/usr/lib64
+
+
